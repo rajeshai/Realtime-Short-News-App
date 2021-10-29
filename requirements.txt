@@ -1,0 +1,5 @@
+streamlit
+transformers
+json
+requests
+newspaper3k
