@@ -1,5 +1,4 @@
 streamlit
 transformers
-torch
 requests
 newspaper3k
