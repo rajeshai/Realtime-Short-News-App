@@ -5,7 +5,7 @@ import requests
 from newspaper import Article
 
 st.set_page_config(page_title='Short News App',layout = 'wide', initial_sidebar_state = 'expanded')
-st.title('Welcome to Short News App \n Tired of reading long articles? This app summarizes news articles for you and gives you short crispy to the point news based on your search \n (This app is a demo app and hence is deployed on a platform with limited computational resources. Hence the number of articles this app can fetch is limited to 5).')
+st.title('Welcome to Short News App \n Tired of reading long articles? This app summarizes news articles for you and gives you short crispy to the point news based on your search \n (This app is a demo app and hence is deployed on a platform with limited computational resources. Hence the number of articles this app can fetch is limited to 5, also this app takes little bit time to display latest news).')
 
 summarizer = pipeline("summarization")
 article_titles=[]
