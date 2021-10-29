@@ -1,5 +1,5 @@
 streamlit
 transformers
-json
+pytorch
 requests
 newspaper3k
